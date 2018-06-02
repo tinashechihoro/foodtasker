@@ -24,7 +24,7 @@ SECRET_KEY = 'y+w_p8+p8-d4r=)$lgo@&y$&c+v(^oftqtb5by0c6wn+=26*jj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mysterious-temple-87363.herokuapp.com']
 
 # Application definition
 
