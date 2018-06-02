@@ -1,0 +1,23 @@
+{%  load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/foodtasker.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <title>Sign-In</title>
+</head>
+<body>
+    <h1>Sign-In</h1>
+<form method="POST">
+    {%  csrf_token %}
+
+    {{ form }}
+
+    <button type="submit">Sign In
+
+    </button>
+</form>
+</body>
+</html>

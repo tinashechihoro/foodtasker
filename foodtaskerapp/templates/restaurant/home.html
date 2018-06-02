@@ -1,0 +1,15 @@
+{%  load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/foodtasker.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <title>Food Tasker Application</title>
+</head>
+<body>
+    <h3>Restaurant Sign Out</h3>
+<a href="{%  url 'restaurant-sign-out' %}">Log Out</a>
+</body>
+</html>
